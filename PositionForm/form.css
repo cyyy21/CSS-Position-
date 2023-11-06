@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+p {
+    font-size: 1.5em;
+}
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    padding: 50px;
+}
+#container {
+  height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ border: 2px solid #ee82ee;
+    margin: 145px;
+}
+#box1 {
+width:50%;
+height: 100%;
+border: 1px solid skyblue;
+padding: 45px;
+display: flex;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+gap: 25px;
+background-color: skyblue;
+color: #fcf6f6;
+}
+h1 {
+    font-size: 5em;
+    font-weight: bold;
+}
+#box2 {
+    width: 50%;
+    text-align: center;
+    align-items: center;
+    text-align: center;
+ justify-content: center;
+margin: 15px;
+}
+form {
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    gap: 10px;
+}
+input {
+    width: 50%;
+    height: 45px;
+  padding: 5px;
+    background-color: #f0ebeb;
+    text-transform: capitalize;
+}
+#message {
+    width: 50%;
+    background-color: #ece8e8;
+    text-transform: capitalize;
+    padding: 5px;
+    
+}
+form>p {
+    position: relative;
+    left: -115px;
+    font-size: 20px;
+}
+button{
+width: 20%;
+height: 45px;
+border-radius: 25px;
+background-color: #87ceeb;
+color: #f0ebeb;
+text-transform: uppercase;
+}
